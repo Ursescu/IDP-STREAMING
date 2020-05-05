@@ -3,6 +3,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 ADD setup_ffmpeg.sh /root
 
+RUN chmod 777 /root/setup_ffmpeg.sh
 RUN /root/setup_ffmpeg.sh
 RUN npm install
 
