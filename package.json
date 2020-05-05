@@ -1,0 +1,23 @@
+{
+  "name": "idp-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ursescu Ionut 342C3",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "fs-extra": "^9.0.0",
+    "mime-types": "^2.1.27",
+    "moment": "^2.25.2",
+    "mysql2": "^2.1.0",
+    "uuid": "^8.0.0"
+  }
+}
